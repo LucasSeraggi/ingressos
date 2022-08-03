@@ -3,9 +3,9 @@
 </template>
 
 <script>
-import { defineComponent } from 'vue'
-
+import { defineComponent } from 'vue';
+// window.socket = new WebSocket("ws://localhost:3000/");
 export default defineComponent({
-  name: 'App'
+  name: 'App',
 })
 </script>
